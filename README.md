@@ -8,3 +8,9 @@ Simply connected via BT or wired and start it. Remember, you are responsable for
 
 # Support?
 These work with BT and Wired.
+
+# Latest Updates
+```
+9/26/23
+Updated the SeroXen_Windows, made it run the bat file and complete in less then 10 seconds (only for support for slow computers & Latency)
+```
